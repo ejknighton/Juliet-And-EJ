@@ -10,6 +10,7 @@ const sliderImages = [
   "/Juliet-And-EJ/photos/kissing_on_rock.jpg",
   "/Juliet-And-EJ/photos/lake_overlook.jpg",
   "/Juliet-And-EJ/photos/waterfall.jpg",
+  "/Juliet-And-EJ/photos/mountain_background.jpg",
 ];
 
 export default function Home() {
@@ -62,11 +63,11 @@ export default function Home() {
       <Box
         sx={{
           mx: "auto",
-          width: { xs: "94vw", md: "min(1200px, 92vw)" },
-          borderRadius: "36px / 24px",
+          // width: { xs: "94vw", md: "min(1200px, 92vw)" },
+          // borderRadius: "36px / 24px",
           overflow: "hidden",
           // tan inner frame like your mock
-          boxShadow: "0 0 0 10px rgba(203,176,146,0.55) inset",
+          // boxShadow: "0 0 0 10px rgba(203,176,146,0.55) inset",
           mb: { xs: 3, md: 6 },
         }}
       >

@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Button, Container, Box } from "@mui/material";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 
 const links = [
+  { label: "Home", to: "/" },
   { label: "Our Story", to: "/our-story" },
   { label: "Wedding Details", to: "/wedding-details" },
   { label: "Travel & Stay", to: "/travel-and-stay" },

@@ -14,46 +14,62 @@ export default function HeroSlider({
   height = { xs: "250px", md: "500px" },
   intervalMs = 5000,
 }: HeroSliderProps) {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: intervalMs,
-    arrows: false,
-    adaptiveHeight: true,
-  };
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      adaptiveHeight: false, // we'll manage height via aspect-ratio
+    };
+
 
   return (
     <Box
       sx={{
-        width: "100%",
-        maxWidth: "1200px",
-        margin: "0 auto",
-        mt: { xs: 2, md: 4 },
-        mb: { xs: 2, md: 6 },
-        borderRadius: "12px",
-        overflow: "hidden",
-        boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
+        width: "min(1100px, 90vw)",
+        mx: "auto",
+        // p: 1.5,                 // space for the border "frame"
+        borderRadius: 4,
+        border: "6px solid rgba(203,176,146,0.55) ",
+        // boxShadow: "0 10px 30px rgba(0,0,0,0.12)",
+        background: "0 0 0 10px rgba(203,176,146,0.55) inset",
       }}
     >
-      <Slider {...settings}>
-        {images.map((src, i) => (
-          <Box
-            key={i}
-            component="img"
-            src={src}
-            alt={`slide-${i}`}
-            sx={{
-              width: "100%",
-              height: height,
-              objectFit: "cover",
-            }}
-          />
-        ))}
-      </Slider>
+      <Box
+        sx={{
+          aspectRatio: "2048 / 1386", // = 1.4776...
+          width: "100%",
+          overflow: "hidden",
+          borderRadius: 3,
+          // ensure slick fills this box vertically
+          "& .slick-list, & .slick-track, & .slick-slide, & .slick-slide > div": {
+            height: "100%",
+          },
+        }}
+      >
+        <Slider {...settings}>
+          {images.map((src, i) => (
+            <Box
+              key={i}
+              sx={{
+                height: "100%",
+                "& img": {
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover", // always fill, crop edges if needed (but ratio matches, so minimal/no crop)
+                  display: "block",
+                },
+              }}
+            >
+              <img src={src} alt={`slide-${i}`} />
+            </Box>
+          ))}
+        </Slider>
+      </Box>
     </Box>
   );
 }
