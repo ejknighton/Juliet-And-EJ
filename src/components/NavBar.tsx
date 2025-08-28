@@ -17,7 +17,7 @@ export default function NavBar() {
   const { pathname } = useLocation();
 
   return (
-    <AppBar position="sticky" color="primary" elevation={0}
+    <AppBar position="sticky" color="primary" elevation={1}
       sx={{
         borderBottom: "1px solid rgba(0,0,0,.06)",
       }}

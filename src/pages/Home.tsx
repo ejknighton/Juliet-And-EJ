@@ -7,12 +7,14 @@ import BeigeFooterBand from "../components/BeigeFooterBand";
 import kissing_on_rock from '@assets/photos/kissing_on_rock.jpg'
 import lake_overlook from '@assets/photos/lake_overlook.jpg'
 import waterfall from '@assets/photos/waterfall.jpg'
+import mountain_background from '@assets/photos/mountain_background.jpg'
 
 // TIP: Because this is a GitHub Project Page, use the full base path so images load in production.
 const sliderImages = [
   kissing_on_rock,
   lake_overlook,
-  waterfall
+  waterfall,
+  mountain_background
 ];
 
 export default function Home() {
@@ -79,10 +81,8 @@ export default function Home() {
           mb: { xs: 3, md: 6 },
         }}
       >
-        {/* If your HeroSlider doesn't accept props, just use <HeroSlider /> here */}
         <HeroSlider
           images={sliderImages}
-          height={{ xs: "420px", md: "660px" }}
           intervalMs={4500}
         />
 

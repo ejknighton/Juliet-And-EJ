@@ -7,7 +7,7 @@ export default function BeigeFooterBand() {
       component="footer"
       sx={{
         mt: { xs: 6, md: 10 },
-        height: { xs: 80, md: 140 },
+        height: { xs: 80 },
         bgcolor: "#E7D4C2",
         width: "100%",
       }}
