@@ -4,17 +4,26 @@ import { Box, Typography, Stack } from "@mui/material";
 import LeafCorner from "../components/LeafCorner";
 import HeroSlider from "../components/HeroSlider";
 import BeigeFooterBand from "../components/BeigeFooterBand";
+import kissing_on_rock from '@assets/photos/kissing_on_rock.jpg'
+import lake_overlook from '@assets/photos/lake_overlook.jpg'
+import waterfall from '@assets/photos/waterfall.jpg'
 
 // TIP: Because this is a GitHub Project Page, use the full base path so images load in production.
 const sliderImages = [
-  "/Juliet-And-EJ/photos/kissing_on_rock.jpg",
-  "/Juliet-And-EJ/photos/lake_overlook.jpg",
-  "/Juliet-And-EJ/photos/waterfall.jpg",
+  kissing_on_rock,
+  lake_overlook,
+  waterfall
 ];
 
 export default function Home() {
   return (
-    <Box sx={{ position: "relative", textAlign: "center", pt: { xs: 3, md: 4 } }}>
+    <Box sx={{ 
+      position: "relative", 
+      textAlign: "center", 
+      pt: { xs: 3, md: 4 }, 
+      width: '100%' 
+      }}
+    >
       {/* parchment glow behind the hero */}
       <Box
         sx={{

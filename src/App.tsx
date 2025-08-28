@@ -17,8 +17,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <NavBar />
-      <Box sx={{ py: { xs: 4, md: 6 } }}>
-        <Container maxWidth="lg">
+      <Box>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/our-story" element={<OurStory />} />
@@ -30,7 +29,6 @@ export default function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="*" element={<Home />} />
           </Routes>
-        </Container>
       </Box>
     </ThemeProvider>
   );
