@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "postbuild": "cp dist/index.html dist/404.html",
     "predeploy": "vite build",
-    "deploy": "gh-pages -d dist -c juliet-and-ej.com"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
