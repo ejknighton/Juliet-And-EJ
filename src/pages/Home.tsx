@@ -7,10 +7,10 @@ import BeigeFooterBand from "../components/BeigeFooterBand";
 
 // TIP: Because this is a GitHub Project Page, use the full base path so images load in production.
 const sliderImages = [
-  "/Juliet-And-EJ/photos/kissing_on_rock.jpg",
-  "/Juliet-And-EJ/photos/lake_overlook.jpg",
-  "/Juliet-And-EJ/photos/waterfall.jpg",
-  "/Juliet-And-EJ/photos/mountain_background.jpg",
+  "/photos/kissing_on_rock.jpg",
+  "/photos/lake_overlook.jpg",
+  "/photos/waterfall.jpg",
+  "/photos/mountain_background.jpg",
 ];
 
 export default function Home() {
