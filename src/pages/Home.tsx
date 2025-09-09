@@ -38,10 +38,10 @@ export default function Home() {
       />
 
       {/* corner leaf flourishes */}
-      <LeafCorner position="tl" />
+      {/* <LeafCorner position="tl" />
       <LeafCorner position="tr" />
       <LeafCorner position="bl" />
-      <LeafCorner position="br" />
+      <LeafCorner position="br" /> */}
 
       {/* Title block — slightly smaller & closer to the navbar */}
       <Stack spacing={1} sx={{ mt: { xs: 1, md: 0 }, mb: { xs: 2, md: 2 } }}>
@@ -100,7 +100,7 @@ export default function Home() {
       </Typography>
 
       {/* full-width footer band (component already handles 100vw background) */}
-      <BeigeFooterBand />
+      {/* <BeigeFooterBand /> */}
     </Box>
   );
 }

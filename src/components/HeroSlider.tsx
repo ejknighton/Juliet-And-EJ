@@ -52,37 +52,19 @@ export default function HeroSlider({
   return (
 <Box
   sx={{
+    width: "100%",                 // container handles the clamp
+    maxHeight: '85vh', // fix to change width too
+    maxWidth: "calc(85vh * (2048 / 1366))", 
     mx: "auto",
-    // ✅ even, non-weird width that includes borders
-    width: "min(90vw, 1500px)",
-    boxSizing: "border-box",
-    overflow: "hidden",         // clip any accidental bleed
-    borderRadius: 4,
-    border: "6px solid rgba(203,176,146,0.55)",
-    // optional inner ring without the shadow bulking sides
-    outline: "10px solid rgba(203,176,146,0.55)",
-    outlineOffset: "-16px",
-    bgcolor: "background.paper",
-  }}
->
-  {/* INNER SLIDER BOX */}
-  <Box
-    sx={{
-      width: "100%",
-      aspectRatio: "2048 / 1386",
-      maxHeight: "90vh",             // ✅ never taller than screen
-      overflow: "hidden",
-      borderRadius: 3,
-
-      // force slick to fill exactly this box
-      "& .slick-slider, & .slick-list, & .slick-track": { height: "100%" },
-      "& .slick-list": { margin: 0 }, // prevent any theme margins
-      "& .slick-track": { display: "flex" },
-      "& .slick-slide": { height: "auto", padding: 0 },
-      "& .slick-slide > div": { height: "100%" },
-
-      // arrows inside the clipped area
-      "& .slick-prev, & .slick-next": {
+    aspectRatio: "2048 / 1366",    // locks height responsively
+    borderRadius: 2,
+    overflow: "hidden",
+    border: 4,
+    borderColor: 'beige.main',
+    // boxShadow: "0 14px 40px rgba(0,0,0,.18)",
+    "& .slick-list, & .slick-track, & .slick-slide > div": { height: "100%" },
+    "& .slick-prev:before, & .slick-next:before": { color: "#fff", fontSize: 28 },
+    "& .slick-prev, & .slick-next": {
         position: "absolute",
         top: "50%",
         transform: "translateY(-50%)",
@@ -93,17 +75,14 @@ export default function HeroSlider({
         background: "rgba(100, 99, 99, 0.35)",
         display: "grid",
         placeItems: "center",
-        fill: "rgba(203,176,146,0.55)", 
+        fill: "rgba(255, 255, 255, 0.62)", 
         "&::before": { display: "none" },
       },
       "& .slick-prev": { left: 12 },
       "& .slick-next": { right: 12 },
-
-      // images fill the box perfectly
-      "& img": { width: "100%", height: "100%", objectFit: "cover", display: "block" },
-    }}
-  >
-        <Slider {...settings}
+  }}
+>
+  <Slider {...settings}
        prevArrow={
       <button className="slick-prev">
         <svg viewBox="0 0 24 24"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
@@ -113,36 +92,21 @@ export default function HeroSlider({
       <button className="slick-next">
         <svg viewBox="0 0 24 24"><path d="m8.59 16.59 1.41 1.41L16 12 10 6 8.59 7.41 13.17 12z"/></svg>
       </button>
-    } 
-        >
-          {images.map((item, i) => {
-            const src = typeof item === "string" ? item : item.src;
-            const alt = typeof item === "string" ? `Slide ${i + 1}` : item.alt ?? `Slide ${i + 1}`;
-            return (
-              <Box
-                key={src ?? i}
-                sx={{
-                  height: "100%",
-                  "& img": {
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "contain",
-                    display: "block",
-                  },
-                }}
-              >
-                <img
-                  src={src}
-                  alt={alt}
-                  loading={i === 0 ? "eager" : "lazy"}
-                  decoding="async"
-                  {...(i === 0 ? { fetchpriority: "high" as const } : {})}
-                />
-              </Box>
-            );
-          })}
-        </Slider>
+    }   
+  >
+    {images.map((src, i) => (
+      <Box key={i} sx={{ width: "100%", height: "100%" }}>
+        <Box
+          component="img"
+          src={typeof src === "string" ? src : src.src}
+          alt={typeof src === "string" ? "" : src.alt ?? ""}
+          loading={i === 0 ? "eager" : "lazy"}
+          fetchPriority={i === 0 ? "high" : "auto"}
+          sx={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }}
+        />
       </Box>
-    </Box>
+    ))}
+  </Slider>
+</Box>
   );
 }

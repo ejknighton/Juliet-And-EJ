@@ -17,19 +17,27 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <NavBar />
-      <Box>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/our-story" element={<OurStory />} />
-            <Route path="/wedding-details" element={<WeddingDetails />} />
-            <Route path="/travel-and-stay" element={<TravelStay />} />
-            <Route path="/rsvp" element={<RSVP />} />
-            <Route path="/registry" element={<Registry />} />
-            <Route path="/schedule" element={<Schedule />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="*" element={<Home />} />
-          </Routes>
-      </Box>
+      <Container
+        maxWidth={false}
+        disableGutters
+        sx={{
+          maxWidth: 1140,                // site-wide clamp
+          px: { xs: 2, sm: 3, md: 4 },   // side padding
+          mx: "auto",
+        }}
+      >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/our-story" element={<OurStory />} />
+          <Route path="/wedding-details" element={<WeddingDetails />} />
+          <Route path="/travel-and-stay" element={<TravelStay />} />
+          <Route path="/rsvp" element={<RSVP />} />
+          <Route path="/registry" element={<Registry />} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Container>
     </ThemeProvider>
   );
 }
