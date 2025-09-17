@@ -49,7 +49,7 @@ export default function OurStory() {
         <Grid container spacing={3} direction="column" alignItems="stretch">
           <Grid >
             <Typography variant="body1">
-              We met in the professional technology fraternity Kappa Theta Pi at the University of Michigan, where we both were studying Computer Science. We spent our college years as friends, sharing classes and study sessions, rock climbing together, and socializing together in our tech fraternity.
+              We met in the professional technology fraternity Kappa Theta Pi at the University of Michigan, where we both were studying Computer Science. We spent our college years as friends, sharing study sessions, rock climbing together, and socializing in our tech fraternity.
             </Typography>
           </Grid>
 
@@ -68,7 +68,7 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '400px'
+                  maxWidth: { xs: "90%", sm: 300, md: 400 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
@@ -104,9 +104,7 @@ export default function OurStory() {
 
         <Typography variant="body1">
           EJ made the first move during an in-person chess match on Juliet’s porch! 
-          <br />
           After months of online games and semi-frequent meetups, EJ was ready to share his feelings. He had a plan: he would wait for Juliet to win a game before telling her how he felt. The only problem? Juliet kept losing!
-          <br />
           Eventually, EJ realized he couldn't wait any longer. He ditched his plan, shared his heart, and luckily, Juliet felt the same.
         </Typography>
       </Box>
@@ -149,7 +147,7 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '400px'
+                  maxWidth: { xs: "90%", sm: 300, md: 400 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
@@ -191,8 +189,8 @@ export default function OurStory() {
           {/* Text */}
           <Grid >
             <Typography variant="body1">
-              We have so many favorite activities to do together. We love being active together - running, 
-              swimming, biking and training for different triathlon or long distance races together. 
+              We have so many favorite activities to do together. We love being active - running, 
+              swimming, biking and training for different races together. 
               We also have been enjoying walking on the beach by our apartment in the mornings with coffee and 
               trying new vegan restaurants in Los Angeles. 
             </Typography>
@@ -212,7 +210,7 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '400px'
+                  maxWidth: { xs: "90%", sm: 300, md: 400 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
@@ -279,11 +277,11 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '400px'
+                  maxWidth: { xs: "90%", sm: 300, md: 400 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
-                  Yummy Baguette in Paris!
+                  Yummy Baguette in Paris during our trip in fall 2024!
               </Typography>
             </Box>
           </Grid>
@@ -334,7 +332,7 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '600px'
+                  maxWidth: { xs: "90%", sm: 420, md: 600 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
@@ -383,7 +381,7 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '400px'
+                  maxWidth: { xs: "90%", sm: 300, md: 400 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
@@ -438,7 +436,7 @@ export default function OurStory() {
                   borderColor: "divider",
                   borderRadius: 1.5,
                   boxShadow: 1,
-                  maxWidth: '600px'
+                  maxWidth: { xs: "90%", sm: 420, md: 600 },
                 }}
               />
                 <Typography component="figcaption" variant="caption" color="text.secondary" sx={{ mt: 1, display: "block" }}>
