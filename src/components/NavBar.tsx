@@ -1,6 +1,7 @@
 import * as React from "react";
 import { AppBar, Toolbar, Button, Container, Box } from "@mui/material";
 import { Link as RouterLink, useLocation } from "react-router-dom";
+import { useTheme } from "@mui/material/styles";
 
 const links = [
   { label: "Home", to: "/" },
@@ -15,11 +16,13 @@ const links = [
 
 export default function NavBar() {
   const { pathname } = useLocation();
-
+  const theme = useTheme();
+// to-do FIX SHADOW UNDER!
   return (
-    <AppBar position="sticky" color="primary" elevation={1}
+    <AppBar position="sticky" color='primary' elevation={1}
       sx={{
-        borderBottom: "1px solid rgba(0,0,0,.06)",
+        borderBottom: "2px solid",
+        borderColor: theme.palette.rose.main
       }}
     >
       <Toolbar disableGutters >
@@ -38,7 +41,7 @@ export default function NavBar() {
               to={l.to}
               size="large"
               sx={{
-                color: "common.white",          // white text on burnt orange
+                color: theme.palette.secondary.main,
                 textTransform: "none",
                 fontWeight: 600,
                 letterSpacing: ".02em",

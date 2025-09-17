@@ -60,7 +60,7 @@ export default function HeroSlider({
     borderRadius: 2,
     overflow: "hidden",
     border: 4,
-    borderColor: 'beige.main',
+    borderColor: 'rose.main',
     // boxShadow: "0 14px 40px rgba(0,0,0,.18)",
     "& .slick-list, & .slick-track, & .slick-slide > div": { height: "100%" },
     "& .slick-prev:before, & .slick-next:before": { color: "#fff", fontSize: 28 },

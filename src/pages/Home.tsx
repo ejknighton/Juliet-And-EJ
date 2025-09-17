@@ -1,6 +1,6 @@
 // src/pages/Home.tsx
 import * as React from "react";
-import { Box, Typography, Stack } from "@mui/material";
+import { Box, Typography, Stack, useTheme } from "@mui/material";
 import LeafCorner from "../components/LeafCorner";
 import HeroSlider from "../components/HeroSlider";
 import BeigeFooterBand from "../components/BeigeFooterBand";
@@ -18,6 +18,7 @@ const sliderImages = [
 ];
 
 export default function Home() {
+  const theme = useTheme(); 
   return (
     <Box sx={{ 
       position: "relative", 
@@ -57,13 +58,13 @@ export default function Home() {
           Juliet &amp; EJ
         </Typography>
 
-        <Typography variant="h3" sx={{ fontSize: { xs: 22, md: 28 }, mt: { xs: 0.5, md: 0 } }}>
+        <Typography  color={theme.palette.secondary.main} sx={{ fontSize: { xs: 22, md: 28 }, mt: { xs: 0.5, md: 0 } }}>
           June 27th, 2026
         </Typography>
 
         <Typography
-          variant="h4"
-          sx={{ fontSize: { xs: 18, md: 22 }, color: "text.secondary", mt: -0.5 }}
+          sx={{ fontSize: { xs: 18, md: 22 }, mt: -0.5 }}
+          color={theme.palette.secondary.main}
         >
           June Lake, CA
         </Typography>
@@ -73,11 +74,7 @@ export default function Home() {
       <Box
         sx={{
           mx: "auto",
-          // width: { xs: "94vw", md: "min(1200px, 92vw)" },
-          // borderRadius: "36px / 24px",
           overflow: "hidden",
-          // tan inner frame like your mock
-          // boxShadow: "0 0 0 10px rgba(203,176,146,0.55) inset",
           mb: { xs: 3, md: 6 },
         }}
       >
