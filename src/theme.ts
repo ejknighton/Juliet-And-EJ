@@ -18,7 +18,7 @@ declare module '@mui/material/styles' {
 }
 
 // Custom color palette from your photos
-const colors = {
+export const colors = {
   burntOrange: "#D26A1D",
   goldenOchre: "#E5B76B",
   forestPine: "#2C3B32",
@@ -132,6 +132,26 @@ export const theme = createTheme({
         root: {
           borderRadius: "12px",
           padding: "8px 20px",
+        },
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderColor: colors.forestPine,
+            },
+            '&:hover fieldset': {
+              borderColor: colors.forestPine,
+            },
+            '&.Mui-focused fieldset': {
+              borderColor: colors.forestPine,
+            },
+          },
+          '& .MuiInputLabel-root.Mui-focused': {
+            color: colors.forestPine,
+          },
         },
       },
     },

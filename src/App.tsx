@@ -21,7 +21,7 @@ export default function App() {
         maxWidth={false}
         disableGutters
         sx={{
-          maxWidth: 1140,                // site-wide clamp
+          // maxWidth: 1140,                // site-wide clamp
           px: { xs: 2, sm: 3, md: 4 },   // side padding
           mx: "auto",
           // backgroundColor: theme.palette.background.paper

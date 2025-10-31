@@ -1,0 +1,23 @@
+{
+  "hotels": [
+    {
+      "name": "The Limelight Hotel",
+      "blurb": "A brand-new addition to Mammoth (opened December 2025) with a modern mountain vibe and welcoming, laid-back atmosphere—steps from Mammoth Village.",
+      "savingsNote": "Our guests receive a special block rate nearly $200 below the regular retail price.",
+      "rates": [
+        { "label": "Deluxe King", "price": "$290" },
+        { "label": "Deluxe Queen (2)", "price": "$310" }
+      ],
+      "ctaLabel": "Book Limelight Block Rate",
+      "ctaHref": "#limelight-booking-link"
+    },
+    {
+      "name": "The Mammoth Lodging Collection: The Village Lodge",
+      "blurb": "One- and two-bedroom condos with full kitchens in the heart of Mammoth Village—extra space and right in the action.",
+      "savingsNote": "Block rate about $100 below retail.",
+      "rates": [{ "label": "One Bedroom w/ King Bed", "price": "$219" }],
+      "ctaLabel": "Book Village Lodge Block Rate",
+      "ctaHref": "#village-lodge-booking-link"
+    }
+  ]
+}

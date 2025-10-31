@@ -1,0 +1,155 @@
+{
+  "activities": [
+    {
+      "name": "Sherwin Lakes Trailhead",
+      "category": "Hiking",
+      "link": "https://www.alltrails.com/trail/us/california/sherwin-lakes-trail"
+    },
+    {
+      "name": "Mammoth Motocross",
+      "category": "Activities",
+      "link": "https://www.mammothmountain.com/motocross/home"
+    },
+    {
+      "name": "Mammoth Rock 'N' Bowl",
+      "category": "Activities",
+      "link": "https://www.mammothrocknbowl.com/"
+    },
+    {
+      "name": "Cast-Off",
+      "category": "Shopping",
+      "link": "https://www.facebook.com/CastOffThriftStore/"
+    },
+    {
+      "name": "Second Chance Thrift Shop",
+      "category": "Shopping",
+      "link": "https://www.visitmammoth.com/directory/second-chance-thrift-store/"
+    },
+    {
+      "name": "Old New York Deli & Bakery Co.",
+      "category": "Restaurant",
+      "note": "Juliet's favorite bagel + tofutti",
+      "link": "https://www.oldnewyork.com/"
+    },
+    {
+      "name": "Mammoth Coffee Roasting",
+      "category": "Restaurant",
+      "note": "Amazing vegan donuts!",
+      "link": "https://mammothcoffeeroastingco.com/"
+    },
+    {
+      "name": "The Mammoth Smoke Shack",
+      "category": "Restaurant",
+      "note": "Yummy food",
+      "link": "https://www.visitmammoth.com/directory/mammoth-smoke-shack/"
+    },
+    {
+      "name": "Twin Lakes Vista",
+      "category": "Scenic",
+      "note": "Great vista on a walking trail in Mammoth",
+      "link": "https://www.mammothtrails.org/destination/32/twin-lakes-vista/"
+    },
+    {
+      "name": "Lakes Basin Path / Horseshoe Lake Trailhead",
+      "category": "Hiking",
+      "note": "Fun area with some easy hikes branching off, you can take the bus too in Mammoth",
+      "link": "https://www.mammothtrails.org/trail/8/lakes-basin-path/"
+    },
+    {
+      "name": "June Lake Loop (CA-158)",
+      "category": "Scenic",
+      "note": "A must drive! ... or bike!",
+      "link": "https://junelakeloop.com/",
+      "photo": "/src/assets/photos/activities/june_lake_loop_bike.jpg"
+    },
+    {
+      "name": "Boardwalk Trail, Mono Lake Park",
+      "category": "Hiking",
+      "note": "Fun nature trail to walk out on Mono Lake",
+      "link": "https://www.alltrails.com/trail/us/california/mono-lake-boardwalk"
+    },
+    {
+      "name": "Mono Lake Vista Point",
+      "category": "Scenic",
+      "note": "A little further but beautiful view of Mono Lake",
+      "link": "https://www.monocounty.org/listing/mono-lake-scenic-viewpoint/1431/"
+    },
+    {
+      "name": "June Mountain Ski Area",
+      "category": "Wedding",
+      "note": "Wedding location",
+      "link": "https://www.junemountain.com/"
+    },
+    {
+      "name": "Reversed Peak",
+      "category": "Hiking",
+      "note": "Best hike in the June Lake Loop",
+      "link": "https://www.alltrails.com/trail/us/california/reversed-peak-trail"
+    },
+    {
+      "name": "Devils Postpile National Monument",
+      "category": "Hiking",
+      "note": "Famous place to hike to",
+      "link": "https://www.nps.gov/depo/"
+    },
+    {
+      "name": "Crowley Lake Southbound Vista Point",
+      "category": "Scenic",
+      "note": "Beautiful vista off the highway between Bishop and Mammoth",
+      "link": "https://www.monocounty.org/listing/crowley-lake-scenic-vista/1435/"
+    },
+    {
+      "name": "Vista Point",
+      "category": "Scenic",
+      "note": "Beautiful vista off the highway between Bishop and Mammoth",
+      "link": "https://www.google.com/maps/search/Vista+Point+Highway+395+Mammoth+California"
+    },
+    {
+      "name": "Keough's Hot Springs",
+      "category": "Activities",
+      "note": "On the way down or up",
+      "link": "http://www.keoughshotsprings.com/"
+    },
+    {
+      "name": "Silver Lake Resort",
+      "category": "Activities",
+      "note": "For Kayaking in the June Lake Loop",
+      "link": "https://www.silverlakeresort.net/boat-rentals/"
+    },
+    {
+      "name": "Side Door Wine Bar & Cafe",
+      "category": "Restaurant",
+      "link": "https://www.sidedoormammoth.com/"
+    },
+    {
+      "name": "June Lake Brewing",
+      "category": "Restaurant",
+      "link": "https://www.junelakebrewing.com/"
+    },
+    {
+      "name": "Tiger Bar & Café",
+      "category": "Restaurant",
+      "link": "https://www.tigerbarcafe.com/"
+    },
+    {
+      "name": "Stellar Brew & Natural Cafe",
+      "category": "Restaurant",
+      "link": "https://stellarbrew.life/"
+    },
+    {
+      "name": "Black Velvet Coffee Roaster | Espresso & Wine Bar",
+      "category": "Restaurant",
+      "link": "https://www.blackvelvetcoffee.com/"
+    },
+    {
+      "name": "Distant Brewing",
+      "category": "Restaurant",
+      "link": "https://distantbeer.com/"
+    },
+    {
+      "name": "Mammoth Brewing Company",
+      "category": "Restaurant",
+      "link": "https://mammothbrewingco.com/"
+    }
+  ]
+}

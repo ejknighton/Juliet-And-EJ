@@ -11,10 +11,10 @@ import mountain_background from '@assets/photos/mountain_background.jpg'
 
 // TIP: Because this is a GitHub Project Page, use the full base path so images load in production.
 const sliderImages = [
-  kissing_on_rock,
   lake_overlook,
   waterfall,
-  mountain_background
+  mountain_background,
+  kissing_on_rock,
 ];
 
 export default function Home() {

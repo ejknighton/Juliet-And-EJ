@@ -1,0 +1,29 @@
+{
+  "airports": [
+    {
+      "code": "MMH",
+      "name": "Mammoth Yosemite Airport",
+      "distance": "10 min",
+      "details": "A small regional airport located about 10 minutes from Mammoth Village, offering select flights from the Los Angeles area. Guests staying at the Limelight Hotel can take advantage of the free Limelight shuttle service to and from the airport."
+    },
+    {
+      "code": "BIH",
+      "name": "Eastern Sierra Regional Airport - Bishop, CA",
+      "distance": "45 min",
+      "details": "Located approximately 45 minutes south of Mammoth Lakes, Bishop Airport provides additional flight options. From BIH, you can rent a car, book a private shuttle or taxi, or use the public bus via the Eastern Sierra Transit Company.",
+      "link": "https://www.inyocounty.us/bishop-airport/ground-transportation"
+    },
+    {
+      "code": "RNO",
+      "name": "Reno-Tahoe International Airport",
+      "distance": "3 hours",
+      "details": "Reno is about a 3-hour drive north of Mammoth Lakes. Guests can rent a car or take the Eastern Sierra Transit Company bus service from Reno to Mammoth."
+    },
+    {
+      "code": "LAX",
+      "name": "Los Angeles International Airport",
+      "distance": "5 hours",
+      "details": "Approximately a 5-hour drive south of Mammoth Lakes. Rental cars and Eastern Sierra Transit Company routes are both available for this option as well."
+    }
+  ]
+}
