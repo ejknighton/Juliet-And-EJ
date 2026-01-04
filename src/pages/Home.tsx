@@ -85,17 +85,6 @@ export default function Home() {
 
       </Box>
 
-      <Typography
-        sx={{
-          mt: { xs: 2, md: 3 },
-          mb: { xs: 3, md: 6 },
-          fontSize: { xs: 18, md: 24 },
-          fontFamily: '"Cormorant Garamond", serif',
-        }}
-      >
-        More details coming soon
-      </Typography>
-
       {/* full-width footer band (component already handles 100vw background) */}
       {/* <BeigeFooterBand /> */}
     </Box>
