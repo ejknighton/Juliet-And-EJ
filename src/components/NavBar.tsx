@@ -25,7 +25,6 @@ const links = [
   { label: "Travel & Stay", to: "/travel-and-stay" },
   { label: "RSVP", to: "/rsvp" },
   { label: "Registry", to: "/registry" },
-  { label: "Schedule", to: "/schedule" },
   { label: "FAQ", to: "/faq" },
 ];
 

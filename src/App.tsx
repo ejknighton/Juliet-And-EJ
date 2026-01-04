@@ -8,7 +8,6 @@ import WeddingDetails from "./pages/WeddingDetails.jsx";
 import TravelStay from "./pages/TravelStay.jsx";
 import RSVP from "./pages/RSVP.jsx";
 import Registry from "./pages/Registry.jsx";
-import Schedule from "./pages/Schedule.jsx";
 import FAQ from "./pages/FAQ.jsx";
 import { theme } from "./theme.js";
 
@@ -34,7 +33,6 @@ export default function App() {
           <Route path="/travel-and-stay" element={<TravelStay />} />
           <Route path="/rsvp" element={<RSVP />} />
           <Route path="/registry" element={<Registry />} />
-          <Route path="/schedule" element={<Schedule />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="*" element={<Home />} />
         </Routes>

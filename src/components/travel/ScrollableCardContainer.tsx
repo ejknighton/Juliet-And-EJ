@@ -60,7 +60,11 @@ export function ScrollableCardContainer({
         {children}
       </Box>
 
-      <ScrollFadeOverlays showLeftFade={showLeftFade} showRightFade={showRightFade} />
+      <ScrollFadeOverlays
+        showLeftFade={showLeftFade}
+        showRightFade={showRightFade}
+        scrollRef={scrollRef}
+      />
     </Box>
   );
 }

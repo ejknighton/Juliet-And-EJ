@@ -6,6 +6,7 @@ import { HotelType } from "../../types/travel";
 import { SkiTrailMarker } from "./SkiTrailMarker";
 import { HotelBlock } from "./HotelBlock";
 import { ScrollableCardContainer } from "./ScrollableCardContainer";
+import SnowboardingOutlinedIcon from '@mui/icons-material/SnowboardingOutlined';
 
 interface AccommodationsSectionProps {
   hotels: HotelType[];
@@ -57,7 +58,7 @@ export function AccommodationsSection({ hotels }: AccommodationsSectionProps) {
             m: 0,
           }}
         >
-          Lodge Options
+          Lodging Options
         </Box>
       </Box>
 
@@ -75,6 +76,7 @@ export function AccommodationsSection({ hotels }: AccommodationsSectionProps) {
                   price: rate.price,
                 })) || []
               }
+              ctaHref={hotel.ctaHref}
             />
           </Box>
         ))}
@@ -91,7 +93,7 @@ export function AccommodationsSection({ hotels }: AccommodationsSectionProps) {
         }}
       >
         <Box component="p" sx={{ fontSize: "0.875rem", color: colors.deepCharcoal, m: 0 }}>
-          <strong>⛷ Trail Note:</strong> There are also many other hotels,
+          <strong><SnowboardingOutlinedIcon sx={{ height: "0.875rem", width: "0.875rem" }}/> Trail Note:</strong> There are also many other hotels,
           Airbnbs, and vacation rentals available in both Mammoth Lakes and
           June Lake. However, please note that shuttles to and from the
           wedding venue will run only from Mammoth Village, so if not

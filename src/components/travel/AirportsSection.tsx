@@ -40,7 +40,7 @@ export function AirportsSection({ airports }: AirportsSectionProps) {
           the drive through the Eastern Sierras is gorgeous and not bad at
           all. For those flying in{" "}
           <strong>Bishop (BIH) or Reno (RNO)</strong> and renting a car or
-          carpooling with someone driving is likely the most convenient
+          carpooling with someone, driving is likely the most convenient
           option.
         </Box>
       </Box>

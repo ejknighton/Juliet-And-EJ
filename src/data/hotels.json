@@ -9,15 +9,15 @@
         { "label": "Deluxe Queen (2)", "price": "$310" }
       ],
       "ctaLabel": "Book Limelight Block Rate",
-      "ctaHref": "#limelight-booking-link"
+      "ctaHref": "https://www.limelighthotels.com/mammoth/reservations#/booking/step-1?data=('hDhd!'limelight-mammoth'~aeA234dtA304fs.~rDat!2~cn!0~cg.~alBpo*co*gp!'2705395'~rnCry*rk*re.~rr*ssCax!0~cy*ds!('pe*ls*as*st*he1)~myBse*ce*ne1)*1~.8%5D1!null4%2F2026'~8!%5BA!'06%2FB!false~C.)%5D~Ds8('%01DCBA841.*_"
     },
     {
       "name": "The Mammoth Lodging Collection: The Village Lodge",
       "blurb": "One- and two-bedroom condos with full kitchens in the heart of Mammoth Village—extra space and right in the action.",
       "savingsNote": "Block rate about $100 below retail.",
-      "rates": [{ "label": "One Bedroom w/ King Bed", "price": "$219" }],
+      "rates": [{ "label": "One Bedroom", "price": "$189-$219" }, { "label": "Two Bedroom", "price": "$245-$305"}],
       "ctaLabel": "Book Village Lodge Block Rate",
-      "ctaHref": "#village-lodge-booking-link"
+      "ctaHref": "https://groups.mammothmountain.com/mammothresort/rlp/LevesqueKnightonWedding"
     }
   ]
 }

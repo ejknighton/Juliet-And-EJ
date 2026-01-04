@@ -1,20 +1,23 @@
 // src/components/travel/HotelBlock.tsx
 import { Box, Card } from "@mui/material";
 import { Hotel } from "lucide-react";
+import LaunchIcon from "@mui/icons-material/Launch";
 import { colors } from "../../theme";
 
 interface HotelBlockProps {
   name: string;
   description: string;
   rooms: { type: string; price: string }[];
+  ctaHref?: string;
 }
 
 /**
  * Displays hotel accommodation information in a card format
  */
-export function HotelBlock({ name, description, rooms }: HotelBlockProps) {
+export function HotelBlock({ name, description, rooms, ctaHref }: HotelBlockProps) {
   return (
     <Card
+      onClick={ctaHref ? () => window.open(ctaHref, "_blank", "noopener,noreferrer") : undefined}
       sx={{
         p: { xs: 2, sm: 3 },
         boxShadow: 3,
@@ -28,6 +31,7 @@ export function HotelBlock({ name, description, rooms }: HotelBlockProps) {
         backgroundColor: colors.offWhite,
         borderColor: colors.warmTaupe,
         scrollSnapAlign: "start",
+        cursor: ctaHref ? "pointer" : "default",
       }}
     >
       <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.5, mb: 1.5, position: "relative" }}>
@@ -50,6 +54,17 @@ export function HotelBlock({ name, description, rooms }: HotelBlockProps) {
             {name}
           </Box>
         </Box>
+        {ctaHref && (
+          <LaunchIcon
+            sx={{
+              position: "absolute",
+              top: 0,
+              right: 0,
+              color: colors.forestPine,
+              fontSize: "1.25rem",
+            }}
+          />
+        )}
       </Box>
 
       <Box

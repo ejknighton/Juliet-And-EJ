@@ -3,7 +3,154 @@
     {
       "name": "Sherwin Lakes Trailhead",
       "category": "Hiking",
-      "link": "https://www.alltrails.com/trail/us/california/sherwin-lakes-trail"
+      "link": "https://www.alltrails.com/trail/us/california/sherwin-lakes-trail",
+      "photo": "/src/assets/photos/activities/sherwin_lakes.jpg"
+    },
+    {
+      "name": "Twin Lakes Vista",
+      "category": "Scenic",
+      "note": "Great vista on a walking trail in Mammoth",
+      "link": "https://www.mammothtrails.org/destination/32/twin-lakes-vista/",
+      "photo": "/src/assets/photos/activities/twin_lakes.jpg"
+    },
+    {
+      "name": "Lakes Basin Path / Horseshoe Lake Trailhead",
+      "category": "Hiking",
+      "note": "Fun area with some easy hikes branching off, you can take the bus too in Mammoth",
+      "link": "https://www.mammothtrails.org/trail/8/lakes-basin-path/",
+      "photo": "/src/assets/photos/activities/horshoe_lake_loop.jpg"
+    },
+    {
+      "name": "June Lake Loop (CA-158)",
+      "category": "Scenic",
+      "note": "A must drive! ... or bike!",
+      "link": "https://junelakeloop.com/",
+      "photo": "/src/assets/photos/activities/june_lake_loop_bike.jpg"
+    },
+    {
+      "name": "Boardwalk Trail, Mono Lake Park",
+      "category": "Hiking",
+      "note": "Fun nature trail to walk out on Mono Lake",
+      "link": "https://www.alltrails.com/trail/us/california/mono-lake-boardwalk",
+      "photo": "/src/assets/photos/activities/mono_lake_boardwalk.jpg"
+    },
+    {
+      "name": "Mono Lake Vista Point",
+      "category": "Scenic",
+      "note": "A little further but beautiful view of Mono Lake",
+      "link": "https://www.monocounty.org/listing/mono-lake-scenic-viewpoint/1431/",
+      "photo": "/src/assets/photos/activities/mono_lake_overlook.jpg"
+    },
+    {
+      "name": "June Mountain Ski Area",
+      "category": "Wedding",
+      "note": "Wedding location",
+      "link": "https://www.junemountain.com/",
+      "photo": "/src/assets/photos/activities/june_mountain.jpg"
+    },
+    {
+      "name": "Reversed Peak",
+      "category": "Hiking",
+      "note": "Best hike in the June Lake Loop",
+      "link": "https://www.alltrails.com/trail/us/california/reversed-peak-trail",
+      "photo": "/src/assets/photos/activities/reversed_peak.jpg"
+    },
+    {
+      "name": "Devils Postpile National Monument",
+      "category": "Hiking",
+      "note": "Famous place to hike to",
+      "link": "https://www.nps.gov/depo/",
+      "photo": "/src/assets/photos/activities/devils_postpile.jpg"
+    },
+    {
+      "name": "Crowley Lake Southbound Vista Point",
+      "category": "Scenic",
+      "note": "Beautiful vista off the highway between Bishop and Mammoth",
+      "link": "https://maps.app.goo.gl/SJ6sNGpeiSRCBiAz8",
+      "photo": "/src/assets/photos/activities/crowley_lake_south.jpg"
+    },
+    {
+      "name": "North Bishop Vista Point",
+      "category": "Scenic",
+      "note": "Beautiful vista off the highway between Bishop and Mammoth",
+      "link": "https://maps.app.goo.gl/rugyUuhyX1Qiosm49",
+      "photo": "/src/assets/photos/activities/bishop_vista.jpg"
+    },
+    {
+      "name": "Keough's Hot Springs",
+      "category": "Activities",
+      "link": "http://www.keoughshotsprings.com/"
+    },
+    {
+      "name": "Mammoth Coffee Roasting",
+      "category": "Restaurant",
+      "note": "Amazing vegan donuts!",
+      "link": "https://mammothcoffeeroastingco.com/",
+      "photo": "/src/assets/photos/activities/mammoth_coffee_roasting_co.png"
+    },
+    {
+      "name": "Silver Lake Resort",
+      "category": "Activities",
+      "note": "For Kayaking in the June Lake Loop",
+      "link": "https://www.silverlakeresort.net/boat-rentals/",
+      "photo": "/src/assets/photos/activities/kayaking.jpg"
+    },
+    {
+      "name": "Side Door Wine Bar & Cafe",
+      "category": "Restaurant",
+      "link": "https://www.sidedoormammoth.com/"
+    },
+    {
+      "name": "The Mammoth Smoke Shack",
+      "category": "Restaurant",
+      "note": "Yummy food",
+      "link": "https://www.visitmammoth.com/directory/mammoth-smoke-shack/"
+    },
+    {
+      "name": "June Lake Brewing",
+      "category": "Restaurant",
+      "link": "https://www.junelakebrewing.com/",
+      "photo": "/src/assets/photos/activities/june_lake_brewing.jpg"
+    },
+    {
+      "name": "Tiger Bar & Café",
+      "category": "Restaurant",
+      "link": "https://www.tigerbarcafe.com/"
+    },
+    {
+      "name": "Stellar Brew & Natural Cafe",
+      "category": "Restaurant",
+      "link": "https://stellarbrew.life/"
+    },
+    {
+      "name": "Black Velvet Coffee Roaster | Espresso & Wine Bar",
+      "category": "Restaurant",
+      "link": "https://www.blackvelvetcoffee.com/"
+    },
+    {
+      "name": "Distant Brewing",
+      "category": "Restaurant",
+      "link": "https://distantbeer.com/",
+      "photo": "/src/assets/photos/activities/distant_brewing.png"
+    },
+    {
+      "name": "Mammoth Brewing Company",
+      "category": "Restaurant",
+      "link": "https://mammothbrewingco.com/",
+      "photo": "/src/assets/photos/activities/mammoth_brewery.jpg"
+    },
+    {
+      "name": "June Lake Beach",
+      "category": "Activities",
+      "link": "https://www.monocounty.org/listing/june-lake-beach/1437/",
+      "photo": "/src/assets/photos/activities/june_lake_beach.jpg"
+    },
+    {
+      "name": "Schat's Bakkerÿ",
+      "category": "Restaurant",
+      "link": "https://www.schatsbakery.com/",
+      "photo": "/src/assets/photos/activities/schats_bakery.jpg",
+      "note": "A must visit bakery and sandwhich shop in Bishop"
     },
     {
       "name": "Mammoth Motocross",
@@ -32,124 +179,10 @@
       "link": "https://www.oldnewyork.com/"
     },
     {
-      "name": "Mammoth Coffee Roasting",
+      "name": "Shelter Distilling",
       "category": "Restaurant",
-      "note": "Amazing vegan donuts!",
-      "link": "https://mammothcoffeeroastingco.com/"
-    },
-    {
-      "name": "The Mammoth Smoke Shack",
-      "category": "Restaurant",
-      "note": "Yummy food",
-      "link": "https://www.visitmammoth.com/directory/mammoth-smoke-shack/"
-    },
-    {
-      "name": "Twin Lakes Vista",
-      "category": "Scenic",
-      "note": "Great vista on a walking trail in Mammoth",
-      "link": "https://www.mammothtrails.org/destination/32/twin-lakes-vista/"
-    },
-    {
-      "name": "Lakes Basin Path / Horseshoe Lake Trailhead",
-      "category": "Hiking",
-      "note": "Fun area with some easy hikes branching off, you can take the bus too in Mammoth",
-      "link": "https://www.mammothtrails.org/trail/8/lakes-basin-path/"
-    },
-    {
-      "name": "June Lake Loop (CA-158)",
-      "category": "Scenic",
-      "note": "A must drive! ... or bike!",
-      "link": "https://junelakeloop.com/",
-      "photo": "/src/assets/photos/activities/june_lake_loop_bike.jpg"
-    },
-    {
-      "name": "Boardwalk Trail, Mono Lake Park",
-      "category": "Hiking",
-      "note": "Fun nature trail to walk out on Mono Lake",
-      "link": "https://www.alltrails.com/trail/us/california/mono-lake-boardwalk"
-    },
-    {
-      "name": "Mono Lake Vista Point",
-      "category": "Scenic",
-      "note": "A little further but beautiful view of Mono Lake",
-      "link": "https://www.monocounty.org/listing/mono-lake-scenic-viewpoint/1431/"
-    },
-    {
-      "name": "June Mountain Ski Area",
-      "category": "Wedding",
-      "note": "Wedding location",
-      "link": "https://www.junemountain.com/"
-    },
-    {
-      "name": "Reversed Peak",
-      "category": "Hiking",
-      "note": "Best hike in the June Lake Loop",
-      "link": "https://www.alltrails.com/trail/us/california/reversed-peak-trail"
-    },
-    {
-      "name": "Devils Postpile National Monument",
-      "category": "Hiking",
-      "note": "Famous place to hike to",
-      "link": "https://www.nps.gov/depo/"
-    },
-    {
-      "name": "Crowley Lake Southbound Vista Point",
-      "category": "Scenic",
-      "note": "Beautiful vista off the highway between Bishop and Mammoth",
-      "link": "https://www.monocounty.org/listing/crowley-lake-scenic-vista/1435/"
-    },
-    {
-      "name": "Vista Point",
-      "category": "Scenic",
-      "note": "Beautiful vista off the highway between Bishop and Mammoth",
-      "link": "https://www.google.com/maps/search/Vista+Point+Highway+395+Mammoth+California"
-    },
-    {
-      "name": "Keough's Hot Springs",
-      "category": "Activities",
-      "note": "On the way down or up",
-      "link": "http://www.keoughshotsprings.com/"
-    },
-    {
-      "name": "Silver Lake Resort",
-      "category": "Activities",
-      "note": "For Kayaking in the June Lake Loop",
-      "link": "https://www.silverlakeresort.net/boat-rentals/"
-    },
-    {
-      "name": "Side Door Wine Bar & Cafe",
-      "category": "Restaurant",
-      "link": "https://www.sidedoormammoth.com/"
-    },
-    {
-      "name": "June Lake Brewing",
-      "category": "Restaurant",
-      "link": "https://www.junelakebrewing.com/"
-    },
-    {
-      "name": "Tiger Bar & Café",
-      "category": "Restaurant",
-      "link": "https://www.tigerbarcafe.com/"
-    },
-    {
-      "name": "Stellar Brew & Natural Cafe",
-      "category": "Restaurant",
-      "link": "https://stellarbrew.life/"
-    },
-    {
-      "name": "Black Velvet Coffee Roaster | Espresso & Wine Bar",
-      "category": "Restaurant",
-      "link": "https://www.blackvelvetcoffee.com/"
-    },
-    {
-      "name": "Distant Brewing",
-      "category": "Restaurant",
-      "link": "https://distantbeer.com/"
-    },
-    {
-      "name": "Mammoth Brewing Company",
-      "category": "Restaurant",
-      "link": "https://mammothbrewingco.com/"
+      "link": "http://shelterdistilling.com/",
+      "photo": "/src/assets/photos/activities/shelter_distilling.jpg"
     }
   ]
 }

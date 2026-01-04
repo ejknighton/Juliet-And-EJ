@@ -24,7 +24,7 @@ export const colors = {
   forestPine: "#2C3B32",
   warmTaupe: "#C6B7A2",
   offWhite: "#F8F6F3",
-  deepCharcoal: "#3C3C3B",
+  deepCharcoal: "#1a1a19",
   dustyRose: "#B37B6D",
   skyMist: "#9BAFBF",
   skyLight: "#c7ddeeff",

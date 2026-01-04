@@ -92,7 +92,7 @@ export function SkiTrailMarker({
                       color: "rgba(255,255,255,0.9)",
                     }}
                   >
-                    <span>⛷ {elevation}</span>
+                    <span>{elevation}</span>
                   </Box>
                 )}
               </Box>

@@ -1,6 +1,6 @@
 // src/components/travel/ActivitiesSection.tsx
 import * as React from "react";
-import { Box, Select, MenuItem, Checkbox, ListItemText, OutlinedInput, FormControl } from "@mui/material";
+import { Box, Select, MenuItem, Checkbox, ListItemText, OutlinedInput, FormControl, Link } from "@mui/material";
 import { Compass } from "lucide-react";
 import { colors } from "../../theme";
 import { ActivityType } from "../../types/travel";
@@ -9,6 +9,8 @@ import { SkiTrailMarker } from "./SkiTrailMarker";
 import { RecommendationCard } from "./RecommendationCard";
 import { useScrollFade } from "../../hooks/useScrollFade";
 import { ScrollFadeOverlays } from "./ScrollFadeOverlays";
+import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';
+import { getActivityImage } from "../../utils/activityImages";
 
 interface ActivitiesSectionProps {
   activities: ActivityType[];
@@ -61,9 +63,27 @@ export function ActivitiesSection({ activities }: ActivitiesSectionProps) {
             letterSpacing: "0.1em",
             color: colors.forestPine,
             m: 0,
+            display: "flex",
+            alignItems: "center",
+            gap: 0.5,
           }}
         >
           Local Recommendations
+          <Link
+            href="https://maps.app.goo.gl/ynBj4UvH18o5Y4Ji9"
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              color: colors.forestPine,
+              "&:hover": {
+                color: colors.goldenOchre,
+              },
+            }}
+          >
+            <RoomOutlinedIcon sx={{ fontSize: "1.2em" }} />
+          </Link>
         </Box>
 
         <FormControl sx={{ minWidth: { xs: "100%", sm: 200 } }}>
@@ -202,14 +222,18 @@ export function ActivitiesSection({ activities }: ActivitiesSectionProps) {
                   title={activity.name}
                   description={activity.note || ""}
                   link={activity.link}
-                  photo={activity.photo}
+                  photo={getActivityImage(activity.photo)}
                 />
               </Box>
             );
           })}
         </Box>
 
-        <ScrollFadeOverlays showLeftFade={showLeftFade} showRightFade={showRightFade} />
+        <ScrollFadeOverlays
+          showLeftFade={showLeftFade}
+          showRightFade={showRightFade}
+          scrollRef={scrollRef}
+        />
       </Box>
 
       <Box
@@ -226,7 +250,7 @@ export function ActivitiesSection({ activities }: ActivitiesSectionProps) {
           <strong>⛷ Ski Patrol Tip:</strong> June weather can be
           unpredictable! Layers are essential, and always check trail
           conditions before heading out. The area is at high elevation
-          (7,000+ feet), so take it easy if you're not acclimated.
+          (7,000+ feet, Reception 8,695ft), so take it easy if you're not acclimated.
         </Box>
       </Box>
     </Box>

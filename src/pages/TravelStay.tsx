@@ -39,7 +39,7 @@ const CORRECT_PASSWORD = "juliet";
  * Protected by password
  */
 export default function TravelStay() {
-  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [isUnlocked, setIsUnlocked] = useState(true);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
@@ -146,9 +146,6 @@ export default function TravelStay() {
           pb: 16,
         }}
       >
-        {/* Page header */}
-        {/* <PageHeader /> */}
-
         {/* Trail sections container */}
         <Box sx={{ position: "relative", maxWidth: "1000px", mx: "auto" }}>
           {/* Accommodations section */}
@@ -163,8 +160,6 @@ export default function TravelStay() {
           {/* Transportation section */}
           <TransportationSection />
 
-          {/* Page footer */}
-          {/* <PageFooter /> */}
         </Box>
       </Box>
     </Box>

@@ -20,5 +20,5 @@ export { TransportationSection } from "./TransportationSection";
 
 // Page layout components
 export { BackgroundDecorations } from "./BackgroundDecorations";
-export { PageHeader } from "./PageHeader";
-export { PageFooter } from "./PageFooter";
+export { default as PageHeader } from "../wedding/PageHeader";
+export { default as PageFooter } from "../wedding/PageFooter";
