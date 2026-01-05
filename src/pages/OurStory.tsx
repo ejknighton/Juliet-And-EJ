@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import ktpCoffeeChat from "@assets/photos/our_story/1-1_photo.png";
 import proposal from "@assets/photos/our_story/proposal.jpg";
-import marathon from "@assets/photos/our_story/marathon.jpg";
+import marathon from "@assets/photos/our_story/marathon.JPG";
 import camping from "@assets/photos/our_story/camping.jpg";
 import cats from "@assets/photos/our_story/cats.jpg";
 import june_lake from "@assets/photos/our_story/june_lake.jpg";
@@ -133,7 +133,7 @@ export default function OurStory() {
           </Grid>
 
           {/* Image + caption */}
-          <Grid sx={{ widtt: '100%', display: "flex", justifyContent: "center" }}>
+          <Grid sx={{ width: '100%', display: "flex", justifyContent: "center" }}>
             <Box component="figure" sx={{m: 'auto', width: '100%', display: "flex", flexDirection: "column", alignItems: "center"}}>
               <Box
                 component="img"
@@ -197,7 +197,7 @@ export default function OurStory() {
           </Grid>
 
           {/* Image + caption */}
-          <Grid sx={{ widtt: '100%', display: "flex", justifyContent: "center" }}>
+          <Grid sx={{ width: '100%', display: "flex", justifyContent: "center" }}>
             <Box component="figure" sx={{m: 0, display: "flex", flexDirection: "column", alignItems: "center"}}>
               <Box
                 component="img"
@@ -264,7 +264,7 @@ export default function OurStory() {
         </Typography>
 
          {/* Image + caption */}
-          <Grid sx={{ widtt: '100%', display: "flex", justifyContent: "center" }}>
+          <Grid sx={{ width: '100%', display: "flex", justifyContent: "center" }}>
             <Box component="figure" sx={{m: 0, display: "flex", flexDirection: "column", alignItems: "center"}}>
               <Box
                 component="img"
@@ -319,7 +319,7 @@ export default function OurStory() {
           </Grid>
 
           {/* Image + caption */}
-          <Grid sx={{ widtt: '100%', display: "flex", justifyContent: "center" }}>
+          <Grid sx={{ width: '100%', display: "flex", justifyContent: "center" }}>
             <Box component="figure" sx={{m: 0, display: "flex", flexDirection: "column", alignItems: "center"}}>
               <Box
                 component="img"
@@ -368,7 +368,7 @@ export default function OurStory() {
           </Grid>
 
           {/* Image + caption */}
-          <Grid sx={{ widtt: '100%', display: "flex", justifyContent: "center" }}>
+          <Grid sx={{ width: '100%', display: "flex", justifyContent: "center" }}>
             <Box component="figure" sx={{m: 0, display: "flex", flexDirection: "column", alignItems: "center"}}>
               <Box
                 component="img"
@@ -423,7 +423,7 @@ export default function OurStory() {
           </Grid>
 
           {/* Image + caption */}
-          <Grid sx={{ widtt: '100%', display: "flex", justifyContent: "center" }}>
+          <Grid sx={{ width: '100%', display: "flex", justifyContent: "center" }}>
             <Box component="figure" sx={{m: 0, display: "flex", flexDirection: "column", alignItems: "center"}}>
               <Box
                 component="img"

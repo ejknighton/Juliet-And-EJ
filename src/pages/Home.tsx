@@ -82,6 +82,9 @@ export default function Home() {
           images={sliderImages}
           intervalMs={4500}
         />
+        <Typography variant="h4" mt={4}> 
+          We can't wait to celebrate with you!
+        </Typography>
 
       </Box>
 

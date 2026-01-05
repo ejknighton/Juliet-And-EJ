@@ -17,7 +17,7 @@ interface AccommodationsSectionProps {
  */
 export function AccommodationsSection({ hotels }: AccommodationsSectionProps) {
   return (
-    <Box sx={{ mb: 10 }}>
+    <Box id="accommodations" sx={{ mb: 10 }}>
       <SkiTrailMarker
         icon={<Hotel size={28} />}
         label="Base Lodge (Accommodations)"

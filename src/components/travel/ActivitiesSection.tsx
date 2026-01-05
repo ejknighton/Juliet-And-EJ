@@ -40,7 +40,7 @@ export function ActivitiesSection({ activities }: ActivitiesSectionProps) {
   const { scrollRef, showLeftFade, showRightFade, handleScroll } = useScrollFade([filteredActivities]);
 
   return (
-    <Box sx={{ mb: 10 }}>
+    <Box id="activities" sx={{ mb: 10 }}>
       <SkiTrailMarker
         icon={<Compass size={28} />}
         label="Terrain Features (Activities)"

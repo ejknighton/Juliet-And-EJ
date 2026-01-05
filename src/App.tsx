@@ -2,6 +2,7 @@ import * as React from "react";
 import { Routes, Route } from "react-router-dom";
 import { ThemeProvider, createTheme, CssBaseline, Container, Box } from "@mui/material";
 import NavBar from "./components/NavBar.jsx";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
 import WeddingDetails from "./pages/WeddingDetails.jsx";
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <ScrollToTop />
       <NavBar />
       <Container
         maxWidth={false}

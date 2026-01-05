@@ -59,12 +59,6 @@ export default function WeddingDetails() {
     setError(false);
   };
 
-  const handleKeyPress = (event: React.KeyboardEvent) => {
-    if (event.key === "Enter") {
-      handlePasswordSubmit();
-    }
-  };
-
   // Locked view
   if (!isUnlocked) {
     return (
@@ -112,7 +106,11 @@ export default function WeddingDetails() {
                 setPassword(e.target.value);
                 setError(false);
               }}
-              onKeyPress={handleKeyPress}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  handlePasswordSubmit();
+                }
+              }}
               error={error}
               helperText={error ? "Incorrect password" : ""}
             />
@@ -170,12 +168,12 @@ export default function WeddingDetails() {
             elevationLabel="Base Camp • 7,600 ft"
             events={[
               {
-                name: "Welcome Party",
-                time: "Evening - Exact Time TBD",
-                location: "Location TBD",
+                name: "Open House Welcome Party",
+                time: "7pm - 10pm",
+                location: "Side Door Wine Bar & Cafe, Mammoth Village",
+                locationUrl: "https://maps.app.goo.gl/rX1hUEVaw4yNUCUw7",
                 details: [
-                  "Join us for an informal welcome gathering to kick off the weekend",
-                  "More details coming soon",
+                  "Kick off the weekend with us! We're hosting an informal open house for drinks and light bites. Drop by anytime between 7:00 and 10:00 pm to say hello.",
                 ],
               },
             ]}
@@ -188,23 +186,38 @@ export default function WeddingDetails() {
             icon={Heart}
             title="Wedding Day"
             date="Saturday, June 27th, 2026"
-            elevationLabel="Summit Day • 10,174 ft"
+            elevationLabel="Summit Day • 8,600 ft"
             events={[
               {
                 name: "Ceremony",
                 time: "4:00 PM",
-                location: "June Mountain",
+                location: "June Mountain Chalet",
               },
               {
                 name: "Reception",
-                time: "5:00 PM",
-                location: "June Mountain",
+                time: "Immediately following the ceremony, join us for cocktail hour, followed by dinner and dancing.",
+                location: "June Mountain Chalet",
+              },
+              {
+                name: "Transportation",
                 details: [
-                  "Shuttles will depart from Mammoth Village starting at 3:00 PM",
-                  "Shuttles run every 15 minutes after 3:00 PM",
-                  "Please plan to arrive early to ensure timely arrival",
+                  "Shuttles will depart from Mammoth Village and Limelight Hotel every 15 minutes starting at 3:00 PM. ",
+                  "Please aim to be on a shuttle by 3:30 PM to ensure you have plenty of time to enjoy the chairlift ride up to the Chalet! ",
+                  "If you prefer to drive to and from the reception, there is a parking lot at the base of June Mountain that you can use. ",
                 ],
               },
+              {
+                name: "The Journey",
+                details: [
+                  "The ceremony and reception are held at the June Mountain Chalet. To reach the venue, guests will take a scenic 10-minute chairlift ride.",
+                ],
+              },
+              {
+                name: "Dress Code: Semi-Formal",
+                details: [
+                  "Please keep in mind when planning your attire that the wedding is at a mountain lodge and you will be riding a chairlift and walking on wood chips at times during the evening. It can get chilly once the sun goes down, so a light jacket or wrap is highly encouraged.",
+                ],
+              }
             ]}
           />
         </Box>
@@ -213,18 +226,18 @@ export default function WeddingDetails() {
         <Box id="sunday-section">
           <EventSection
             icon={Coffee}
-            title="Farewell Brunch"
+            title="Farewell Breakfast"
             date="Sunday, June 28th, 2026"
             elevationLabel=" Trail • 7,600 ft"
             showProgressionLine={false}
             events={[
               {
-                name: "Farewell Brunch",
-                time: "Time TBD",
-                location: "Location TBD",
+                name: "Farewell Breakfast",
+                time: "9:00 - 11:00am",
+                location: "Limelight, Mammoth Village",
+                locationUrl: "https://maps.app.goo.gl/Bs3ko9YxTyvGxoJG7",
                 details: [
-                  "Join us for a casual brunch to wrap up the weekend",
-                  "More details coming soon",
+                  "Before you head out, stop by the Limelight for a casual buffet breakfast. We'll be there from 9:00 to 11:00 to share one last meal and say our goodbyes.",
                 ],
               },
             ]}

@@ -9,7 +9,7 @@ import { SkiTrailMarker } from "./SkiTrailMarker";
  */
 export function TransportationSection() {
   return (
-    <Box sx={{ mb: 8 }}>
+    <Box id="transportation" sx={{ mb: 8 }}>
       <SkiTrailMarker
         icon={<Bus size={28} />}
         label="Village Shuttle"

@@ -63,12 +63,6 @@ export default function TravelStay() {
     }
   };
 
-  const handleKeyPress = (event: React.KeyboardEvent) => {
-    if (event.key === "Enter") {
-      handlePasswordSubmit();
-    }
-  };
-
   // Show "More to Come!" view if not unlocked
   if (!isUnlocked) {
     return (
@@ -104,7 +98,11 @@ export default function TravelStay() {
                 setPassword(e.target.value);
                 setError(false);
               }}
-              onKeyPress={handleKeyPress}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  handlePasswordSubmit();
+                }
+              }}
               error={error}
               helperText={error ? "Incorrect password" : ""}
             />

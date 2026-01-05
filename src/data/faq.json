@@ -1,0 +1,142 @@
+{
+  "introduction": "We can't wait to celebrate our wedding with you in the place we love most! Because our venue involves a bit of mountain magic (including a scenic chairlift ride and some fresh mountain air), we want to make sure you have all the information you need for a comfortable and fun weekend!",
+  "categories": [
+    {
+      "id": "lodging-logistics",
+      "title": "Lodging & Logistics",
+      "items": [
+        {
+          "question": "Where should I stay?",
+          "answer": "All weekend events and shuttles are based in Mammoth Village. We recommend staying at our hotel blocks at The Limelight Hotel or The Village Lodges, or finding a rental within walking distance of the Village to keep logistics simple! See more on the <a href=\"#/travel-and-stay#accommodations\">Travel and Stay</a> section of our website."
+        },
+        {
+          "question": "What is the RSVP deadline?",
+          "answer": "Please let us know your plans by May 1st, 2026. You can RSVP directly online – please see <a href=\"#/rsvp\">RSVP</a> on our website."
+        }
+      ]
+    },
+    {
+      "id": "journey-to-venue",
+      "title": "Journey to the Venue",
+      "items": [
+        {
+          "question": "Where exactly is the wedding?",
+          "answer": "Both the ceremony and reception are at the June Mountain Chalet. Please note that June Mountain is a 20-minute drive from Mammoth Lakes. Shuttles will be provided."
+        },
+        {
+          "question": "How do I get to the ceremony?",
+          "answer": "The adventure begins at the base of June Mountain!",
+          "list": [
+            "<strong>The Shuttle:</strong> We are providing shuttles from Mammoth Village starting at 3:00 PM and the Limelight Hotel. The Shuttle Pickup point for Mammoth Village is on Canyon Blvd",
+            "<strong>The Lift:</strong> Once you arrive at the mountain base, you will board a scenic chairlift for a 10-minute ride up to the Chalet."
+          ]
+        },
+        {
+          "question": "What if I cannot ride the chairlift?",
+          "answer": "We will have limited alternative transportation at the base of June Mountain to drive you directly up the mountain road to the Chalet, and back down at the end of your evening. Please reach out to us if you cannot ride the chairlift so we can arrange to accommodate you."
+        },
+        {
+          "question": "What time should I arrive at the base?",
+          "answer": "Because the chairlift runs continuously and takes 10 minutes, please aim to be on a shuttle by 3:30 PM. This ensures you have time to enjoy the ride and find a seat before the ceremony begins at 4:00 PM."
+        },
+        {
+          "question": "How do I get home at the end of the night?",
+          "answer": "Shuttles will run from the base of June Mountain back to Mammoth Village throughout the evening:",
+          "list": [
+            "<strong>First Return Shuttle:</strong> 9:00 PM",
+            "<strong>Final Shuttle Departure:</strong> 10:15 PM (immediately following the reception)"
+          ]
+        },
+        {
+          "question": "Can I call an Uber or Lyft?",
+          "answer": "We highly recommend against relying on rideshare apps. Uber and Lyft are extremely limited in Mammoth and June Lake. Please plan to use our shuttles. For getting around Mammoth in general, there is excellent public transportation. See <a href=\"#/travel-and-stay#transportation\">Travel and Stay</a> for more details."
+        },
+        {
+          "question": "I have a car; can I park at the venue?",
+          "answer": "Because the Chalet is located on the mountain, you cannot drive your car directly to the venue. However, you are welcome to drive to the base of June Mountain and park in the large, paved parking lot (parking is complimentary). From the base, you will take the chairlift up to the Chalet."
+        },
+        {
+          "question": "Should I drive myself or take the shuttle?",
+          "answer": "We highly recommend taking our provided shuttles from Mammoth Village! It allows you to enjoy the open bar and the mountain views without worrying about the 20-minute drive back to Mammoth in the dark. If you do choose to drive, please ensure you have a designated driver."
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-weather",
+      "title": "Wardrobe & Weather",
+      "items": [
+        {
+          "question": "What is the dress code?",
+          "answer": "",
+          "list": [
+            "<strong>Wedding:</strong> Semi-Formal. We invite you to dress up with us! For men, we suggest a suit or a dress shirt and slacks (tie optional). For women, we recommend a midi dress, jumpsuit, or dressy separates. Please keep the chairlift ride in mind when choosing your shoes—block heels or flats are your best friends on the mountain!",
+            "<strong>Welcome Party & Farewell Breakfast:</strong> Casual – come as you are!"
+          ]
+        },
+        {
+          "question": "What shoes should I wear to the wedding?",
+          "answer": "You will be boarding a chairlift and walking on wood chips and mountain lodge flooring. We strongly recommend block heels, wedges, or dressy flats. For your safety and comfort, please avoid stilettos."
+        },
+        {
+          "question": "Will I be cold?",
+          "answer": "Even in June, the temperature drops significantly once the sun goes down. Please bring a shawl, light jacket, or blazer."
+        },
+        {
+          "question": "What if it rains?",
+          "answer": "While June is usually sunny, mountain weather is unpredictable. It is possible it rains at times throughout the weekend."
+        }
+      ]
+    },
+    {
+      "id": "altitude",
+      "title": "Altitude",
+      "items": [
+        {
+          "question": "What should I know about the altitude?",
+          "answer": "Our celebration takes place at 8,600 feet! To help you feel your best, please keep the following in mind:",
+          "list": [
+            "<strong>Hydrate:</strong> Start drinking extra water a day or two before you arrive.",
+            "<strong>Pace Your Drinks:</strong> Alcohol packs a much stronger punch at high altitudes. One drink at the Chalet feels like two or three at sea level!",
+            "<strong>Sun Protection:</strong> The sun is much stronger at high elevations—don't forget your SPF and a hat!"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wedding-day-details",
+      "title": "Wedding Day Details",
+      "items": [
+        {
+          "question": "What happens between the ceremony and the reception?",
+          "answer": "The celebration starts immediately! We'll transition straight into cocktail hour at the Chalet. You won't need to take the chairlift back down until you are ready to head home for the night."
+        },
+        {
+          "question": "I have a dietary restriction, what should I do?",
+          "answer": "Please let us know via your <a href=\"#/rsvp\">RSVP form</a>! We will work closely with the chef to accommodate."
+        },
+        {
+          "question": "Will there be an open bar?",
+          "answer": "Yes! We can't wait to celebrate with you. Please just remember to drink plenty of water between cocktails to stay ahead of the altitude."
+        }
+      ]
+    },
+    {
+      "id": "weekend-events",
+      "title": "Weekend Events (Welcome Party & Farewell Breakfast)",
+      "items": [
+        {
+          "question": "Do I need to RSVP for the Friday or Sunday events?",
+          "answer": "No RSVP is needed for the Welcome Party or Farewell Breakfast. Just show up on your own schedule during the event hours!"
+        },
+        {
+          "question": "Should I eat dinner before the Friday Welcome Party?",
+          "answer": "We will be serving drinks and light bites. If you have a big appetite, we recommend grabbing a full dinner at one of the nearby restaurants before or after you stop by. See our favorite spots under <a href=\"#/travel-and-stay#activities\">Travel and Stay</a>."
+        },
+        {
+          "question": "Can I come to the Farewell Breakfast if I'm not staying at the Limelight Hotel?",
+          "answer": "Absolutely! Whether you are at the Limelight Hotel, the Village Lodging, an Airbnb, or another hotel, we would love to see you there to enjoy the breakfast buffet."
+        }
+      ]
+    }
+  ]
+}

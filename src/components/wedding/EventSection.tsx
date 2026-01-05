@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Link } from "@mui/material";
 import { LucideIcon } from "lucide-react";
 import { colors } from "../../theme";
 import TrailheadMarker from "./TrailheadMarker";
@@ -8,6 +8,7 @@ interface Event {
   name: string;
   time?: string;
   location?: string;
+  locationUrl?: string;
   details?: string[];
 }
 
@@ -96,7 +97,25 @@ export default function EventSection({
                   fontWeight: 500,
                 }}
               >
-                <strong>Location:</strong> {event.location}
+                <strong>Location:</strong>{" "}
+                {event.locationUrl ? (
+                  <Link
+                    href={event.locationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    sx={{
+                      color: colors.forestPine,
+                      textDecoration: "underline",
+                      "&:hover": {
+                        color: colors.goldenOchre,
+                      },
+                    }}
+                  >
+                    {event.location}
+                  </Link>
+                ) : (
+                  event.location
+                )}
               </Typography>
             )}
 
