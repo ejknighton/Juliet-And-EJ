@@ -80,7 +80,7 @@ export default function Registry() {
 
           <Typography variant="body1" sx={{ textAlign: 'center' }}>
             However, should you still wish to gift us, we would cherish a handwritten card
-            or a treasured recipe. Don't worry if your recipe isn't vegan; we look forward
+            and/or a treasured recipe. Don't worry if your recipe isn't vegan; we look forward
             to putting our own plant-based spin on your favorites. We can't wait to build a
             home filled with the words and flavors of the people we love most — keepsakes
             we will treasure for years to come!

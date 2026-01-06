@@ -45,7 +45,7 @@ export default function FAQ() {
   };
 
   return (
-    <Container maxWidth="md" sx={{ py: { xs: 4, md: 6 }, '& a': { color: 'primary.main', textDecoration: 'underline', '&:hover': { color: 'ochre.main' } } }}>
+    <Container maxWidth="md" sx={{ py: { xs: 4, md: 6 }, '& a': { color: 'rose.main', textDecoration: 'underline', '&:hover': { color: 'rose.dark' } } }}>
       {/* Page Title */}
       <Typography
         variant="h2"

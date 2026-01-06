@@ -27,7 +27,7 @@
           "question": "How do I get to the ceremony?",
           "answer": "The adventure begins at the base of June Mountain!",
           "list": [
-            "<strong>The Shuttle:</strong> We are providing shuttles from Mammoth Village starting at 3:00 PM and the Limelight Hotel. The Shuttle Pickup point for Mammoth Village is on Canyon Blvd",
+            "<strong>The Shuttle:</strong> We are providing shuttles from Mammoth Village and the Limelight Hotel starting at 3:00 PM.",
             "<strong>The Lift:</strong> Once you arrive at the mountain base, you will board a scenic chairlift for a 10-minute ride up to the Chalet."
           ]
         },
@@ -37,7 +37,7 @@
         },
         {
           "question": "What time should I arrive at the base?",
-          "answer": "Because the chairlift runs continuously and takes 10 minutes, please aim to be on a shuttle by 3:30 PM. This ensures you have time to enjoy the ride and find a seat before the ceremony begins at 4:00 PM."
+          "answer": "The last shuttle will depart at 3:30 PM so please arrive to the pickup by 3:25 at the latest to ensure you have plenty of time to enjoy the chairlift ride up to the Chalet!"
         },
         {
           "question": "How do I get home at the end of the night?",
@@ -49,7 +49,7 @@
         },
         {
           "question": "Can I call an Uber or Lyft?",
-          "answer": "We highly recommend against relying on rideshare apps. Uber and Lyft are extremely limited in Mammoth and June Lake. Please plan to use our shuttles. For getting around Mammoth in general, there is excellent public transportation. See <a href=\"#/travel-and-stay#transportation\">Travel and Stay</a> for more details."
+          "answer": "We highly recommend against relying on rideshare apps. Uber and Lyft are basically non-existent in Mammoth and June Lake. Please plan to use our shuttles. For getting around Mammoth in general, there is excellent public transportation. See <a href=\"#/travel-and-stay#transportation\">Travel and Stay</a> for more details."
         },
         {
           "question": "I have a car; can I park at the venue?",
@@ -82,7 +82,7 @@
           "answer": "Even in June, the temperature drops significantly once the sun goes down. Please bring a shawl, light jacket, or blazer."
         },
         {
-          "question": "What if it rains?",
+          "question": "Will it rain?",
           "answer": "While June is usually sunny, mountain weather is unpredictable. It is possible it rains at times throughout the weekend."
         }
       ]
@@ -129,7 +129,7 @@
           "answer": "No RSVP is needed for the Welcome Party or Farewell Breakfast. Just show up on your own schedule during the event hours!"
         },
         {
-          "question": "Should I eat dinner before the Friday Welcome Party?",
+          "question": "Will Dinner be served at the Friday Welcome Party?",
           "answer": "We will be serving drinks and light bites. If you have a big appetite, we recommend grabbing a full dinner at one of the nearby restaurants before or after you stop by. See our favorite spots under <a href=\"#/travel-and-stay#activities\">Travel and Stay</a>."
         },
         {

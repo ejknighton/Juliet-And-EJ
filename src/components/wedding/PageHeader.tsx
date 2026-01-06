@@ -125,7 +125,6 @@ export default function PageHeader() {
         >
           Welcome to our wedding weekend adventure! Below you'll find your trail guide
           for the celebration weekend in the mountains of June Lake, California.
-          Follow the trail markers to discover each day's events.
         </Typography>
       </Box>
     </Box>

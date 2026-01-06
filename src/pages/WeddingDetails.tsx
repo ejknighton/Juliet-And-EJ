@@ -169,11 +169,11 @@ export default function WeddingDetails() {
             events={[
               {
                 name: "Open House Welcome Party",
-                time: "7pm - 10pm",
+                time: "7:00 - 10:00 PM",
                 location: "Side Door Wine Bar & Cafe, Mammoth Village",
                 locationUrl: "https://maps.app.goo.gl/rX1hUEVaw4yNUCUw7",
                 details: [
-                  "Kick off the weekend with us! We're hosting an informal open house for drinks and light bites. Drop by anytime between 7:00 and 10:00 pm to say hello.",
+                  "Kick off the weekend with us! We're hosting an informal open house with drinks and light bites. Drop by anytime between 7:00 and 10:00 pm to say hello.",
                 ],
               },
             ]}
@@ -201,21 +201,21 @@ export default function WeddingDetails() {
               {
                 name: "Transportation",
                 details: [
-                  "Shuttles will depart from Mammoth Village and Limelight Hotel every 15 minutes starting at 3:00 PM. ",
-                  "Please aim to be on a shuttle by 3:30 PM to ensure you have plenty of time to enjoy the chairlift ride up to the Chalet! ",
-                  "If you prefer to drive to and from the reception, there is a parking lot at the base of June Mountain that you can use. ",
+                  "Shuttles will depart from Mammoth Village and Limelight Hotel every 15 minutes starting at 3:00 PM.",
+                  "The last shuttle will depart at 3:30 PM so please arrive to the pickup by 3:25 at the latest to ensure you have plenty of time to enjoy the chairlift ride up to the Chalet! ",
+                  "If you prefer to drive to and from the reception, there is a complimentary parking lot at the base of June Mountain that you can use.",
                 ],
               },
               {
                 name: "The Journey",
                 details: [
-                  "The ceremony and reception are held at the June Mountain Chalet. To reach the venue, guests will take a scenic 10-minute chairlift ride.",
+                  "The ceremony and reception are held at the June Mountain Chalet. To reach the venue, guests will take a scenic 10-minute chairlift ride. Due to this, please plan to arrive to the base of the mountain no later than 3:45 PM",
                 ],
               },
               {
                 name: "Dress Code: Semi-Formal",
                 details: [
-                  "Please keep in mind when planning your attire that the wedding is at a mountain lodge and you will be riding a chairlift and walking on wood chips at times during the evening. It can get chilly once the sun goes down, so a light jacket or wrap is highly encouraged.",
+                  "We invite you to dress up with us! For men, we suggest a suit or a dress shirt and slacks (tie optional). For women, we recommend a midi dress, jumpsuit, or dressy separates. Please keep in mind when planning your attire that the wedding is at a mountain lodge and you will be riding a chairlift and walking on wood chips at times during the evening. It can get chilly once the sun goes down, so a light jacket or wrap is highly encouraged.",
                 ],
               }
             ]}
@@ -233,7 +233,7 @@ export default function WeddingDetails() {
             events={[
               {
                 name: "Farewell Breakfast",
-                time: "9:00 - 11:00am",
+                time: "9:00 - 11:00 AM",
                 location: "Limelight, Mammoth Village",
                 locationUrl: "https://maps.app.goo.gl/Bs3ko9YxTyvGxoJG7",
                 details: [

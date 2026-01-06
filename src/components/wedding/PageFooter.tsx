@@ -95,7 +95,7 @@ export default function PageFooter() {
             }}
           >
             Congratulations! You've reached the summit of our wedding weekend adventure.
-            We can't wait to celebrate with you in the mountains!
+            We're so happy to be able to celebrate with you!
           </Typography>
         </Box>
 
