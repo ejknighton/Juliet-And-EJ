@@ -17,7 +17,7 @@ import { FAQData } from "../types/faq";
 const data: FAQData = faqData as FAQData;
 
 export default function FAQ() {
-  const [showAlternateView, setShowAlternateView] = useState(false);
+  const [showAlternateView, setShowAlternateView] = useState(true);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
   const [passwordError, setPasswordError] = useState(false);

@@ -3,10 +3,10 @@
     {
       "name": "The Limelight Hotel",
       "blurb": "A brand-new addition to Mammoth (opened December 2025) with a modern mountain vibe and welcoming, laid-back atmosphere—steps from Mammoth Village.",
-      "savingsNote": "Our guests receive a special block rate nearly $200 below the regular retail price.",
+      "savingsNote": "Prices vary based on date booked, they may not be exactly as labeled below",
       "rates": [
-        { "label": "Deluxe King", "price": "$290" },
-        { "label": "Deluxe Queen (2)", "price": "$310" }
+        { "label": "Deluxe King", "price": "$209" },
+        { "label": "Deluxe Queen (2)", "price": "$231" }
       ],
       "ctaLabel": "Book Limelight Block Rate",
       "ctaHref": "https://www.limelighthotels.com/mammoth/reservations#/booking/step-1?data=('hDhd!'limelight-mammoth'~aeA234dtA304fs.~rDat!2~cn!0~cg.~alBpo*co*gp!'2705395'~rnCry*rk*re.~rr*ssCax!0~cy*ds!('pe*ls*as*st*he1)~myBse*ce*ne1)*1~.8%5D1!null4%2F2026'~8!%5BA!'06%2FB!false~C.)%5D~Ds8('%01DCBA841.*_"

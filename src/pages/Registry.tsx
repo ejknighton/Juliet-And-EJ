@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 
 export default function Registry() {
-  const [showAlternateView, setShowAlternateView] = useState(false);
+  const [showAlternateView, setShowAlternateView] = useState(true);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
   const [passwordError, setPasswordError] = useState(false);
@@ -79,7 +79,7 @@ export default function Registry() {
           </Typography>
 
           <Typography variant="body1" sx={{ textAlign: 'center' }}>
-            However, should you still wish to gift us, we would cherish a handwritten card
+            However, should you still wish to give a gift to us, we would cherish a handwritten card
             and/or a treasured recipe. Don't worry if your recipe isn't vegan; we look forward
             to putting our own plant-based spin on your favorites. We can't wait to build a
             home filled with the words and flavors of the people we love most — keepsakes
