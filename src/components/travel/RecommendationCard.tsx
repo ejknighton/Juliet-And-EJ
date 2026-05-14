@@ -35,7 +35,7 @@ export function RecommendationCard({
       <Box
         sx={{
           width: "100%",
-          height: "180px",
+          aspectRatio: "4 / 3",
           position: "relative",
           overflow: "hidden",
           backgroundColor: iconColor,
@@ -51,7 +51,7 @@ export function RecommendationCard({
             sx={{
               width: "100%",
               height: "100%",
-              objectFit: "cover",
+              objectFit: "contain",
             }}
           />
         )}
