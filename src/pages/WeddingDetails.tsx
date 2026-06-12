@@ -201,8 +201,8 @@ export default function WeddingDetails() {
               {
                 name: "Transportation",
                 details: [
-                  "Shuttles will depart from Mammoth Village and Limelight Hotel every 15 minutes starting at 3:00 PM.",
-                  "The last shuttle will depart at 3:30 PM so please arrive to the pickup by 3:25 at the latest to ensure you have plenty of time to enjoy the chairlift ride up to the Chalet! ",
+                  "One shuttle will depart from Mammoth Village at 3:00. And a second shuttle will depart from The Limelight at 3:15.",
+                  "Please arrive at the pickup spot 5 minutes before departure time.",
                   "If you prefer to drive to and from the reception, there is a complimentary parking lot at the base of June Mountain that you can use.",
                 ],
               },
