@@ -174,6 +174,7 @@ export default function WeddingDetails() {
                 locationUrl: "https://maps.app.goo.gl/rX1hUEVaw4yNUCUw7",
                 details: [
                   "Kick off the weekend with us! We're hosting an informal open house with drinks and light bites. Drop by anytime between 7:00 and 10:00 pm to say hello.",
+                  "Please bring a valid photo ID—it will be required to be served alcohol.",
                 ],
               },
             ]}
@@ -197,6 +198,9 @@ export default function WeddingDetails() {
                 name: "Reception",
                 time: "Immediately following the ceremony, join us for cocktail hour, followed by dinner and dancing.",
                 location: "June Mountain Chalet",
+                details: [
+                  "Please bring a valid photo ID—it will be required to be served alcohol at the bar.",
+                ],
               },
               {
                 name: "Transportation",
