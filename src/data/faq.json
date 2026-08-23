@@ -1,5 +1,5 @@
 {
-  "introduction": "We can't wait to celebrate our wedding with you in the place we love most! Because our venue involves a bit of mountain magic (including a scenic chairlift ride and some fresh mountain air), we want to make sure you have all the information you need for a comfortable and fun weekend!",
+  "introduction": "Thank you for celebrating our wedding with us in the place we love most! We've kept the weekend details below just as they were, for anyone who wants to look back.",
   "categories": [
     {
       "id": "lodging-logistics",
@@ -11,7 +11,7 @@
         },
         {
           "question": "What is the RSVP deadline?",
-          "answer": "Please let us know your plans by May 1st, 2026. You can RSVP directly online – please see <a href=\"#/rsvp\">RSVP</a> on our website."
+          "answer": "RSVPs were due by May 1st, 2026, and were collected online through this website."
         }
       ]
     },
@@ -112,11 +112,11 @@
         },
         {
           "question": "I have a dietary restriction, what should I do?",
-          "answer": "Please let us know via your <a href=\"#/rsvp\">RSVP form</a>! We will work closely with the chef to accommodate."
+          "answer": "Dietary restrictions were collected on the RSVP form, and we worked closely with the chef to accommodate them."
         },
         {
           "question": "Will there be an open bar?",
-          "answer": "Yes! We can't wait to celebrate with you. Please just remember to drink plenty of water between cocktails to stay ahead of the altitude."
+          "answer": "Yes! Please just remember to drink plenty of water between cocktails to stay ahead of the altitude."
         },
         {
           "question": "Do I need to bring my ID?",

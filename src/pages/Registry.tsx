@@ -73,15 +73,15 @@ export default function Registry() {
         }}>
           <Typography variant="body1" sx={{ mb: 3, textAlign: 'center' }}>
             We are incredibly lucky to already have a home full of everything we need.
-            Please know that the greatest gift we could receive is having you join us to
-            celebrate our marriage. Because we've decided not to have a traditional registry,
-            your presence truly is the only gift we need.
+            Please know that the greatest gift we could have received was having you there to
+            celebrate our marriage. Because we decided not to have a traditional registry,
+            your presence truly was the only gift we needed.
           </Typography>
 
           <Typography variant="body1" sx={{ textAlign: 'center' }}>
             However, should you still wish to give a gift to us, we would cherish a handwritten card
             and/or a treasured recipe. Don't worry if your recipe isn't vegan; we look forward
-            to putting our own plant-based spin on your favorites. We can't wait to build a
+            to putting our own plant-based spin on your favorites. We're building a
             home filled with the words and flavors of the people we love most — keepsakes
             we will treasure for years to come!
           </Typography>

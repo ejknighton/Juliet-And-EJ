@@ -418,7 +418,7 @@ export default function OurStory() {
               This small town feels like home because it reminds us of both our childhood summers —Juliet’s spent in Sun Valley, Idaho, and EJ’s up in Northern Michigan. Our time spent in small, nature filled communities gave us a special connection to places like this.
             </Typography>
             <Typography mt={1} variant="body1">
-              June Lake is truly the most special place to us, and we can’t wait to share it with all of you.
+              June Lake is truly the most special place to us, and we were so glad to share it with all of you.
             </Typography>
           </Grid>
 

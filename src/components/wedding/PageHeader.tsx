@@ -99,7 +99,7 @@ export default function PageHeader() {
             textShadow: "1px 1px 2px rgba(0,0,0,0.5)",
           }}
         >
-          Journey Begins Here
+          The Journey
         </Typography>
       </Box>
 
@@ -123,8 +123,8 @@ export default function PageHeader() {
             m: 0,
           }}
         >
-          Welcome to our wedding weekend adventure! Below you'll find your trail guide
-          for the celebration weekend in the mountains of June Lake, California.
+          Our wedding weekend adventure in the mountains of June Lake, California.
+          Below is the trail guide for how the weekend unfolded.
         </Typography>
       </Box>
     </Box>

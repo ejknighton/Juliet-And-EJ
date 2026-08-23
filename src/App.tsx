@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme, CssBaseline, Container, Box } from "@mui/ma
 import NavBar from "./components/NavBar.jsx";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home.jsx";
+import Photos from "./pages/Photos.jsx";
 import OurStory from "./pages/OurStory.jsx";
 import WeddingDetails from "./pages/WeddingDetails.jsx";
 import TravelStay from "./pages/TravelStay.jsx";
@@ -30,6 +31,7 @@ export default function App() {
       >
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/photos" element={<Photos />} />
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/wedding-details" element={<WeddingDetails />} />
           <Route path="/travel-and-stay" element={<TravelStay />} />

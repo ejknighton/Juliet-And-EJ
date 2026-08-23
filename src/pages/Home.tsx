@@ -83,7 +83,7 @@ export default function Home() {
           intervalMs={4500}
         />
         <Typography variant="h4" mt={4}> 
-          We can't wait to celebrate with you!
+          We had the best time celebrating with you!
         </Typography>
 
       </Box>

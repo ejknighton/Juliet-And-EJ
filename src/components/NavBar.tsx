@@ -20,10 +20,10 @@ import CloseIcon from "@mui/icons-material/Close";
 
 const links = [
   { label: "Home", to: "/" },
+  { label: "Photos", to: "/photos" },
   { label: "Our Story", to: "/our-story" },
   { label: "Wedding Details", to: "/wedding-details" },
   { label: "Travel & Stay", to: "/travel-and-stay" },
-  { label: "RSVP", to: "/rsvp" },
   { label: "Registry", to: "/registry" },
   { label: "FAQ", to: "/faq" },
 ];

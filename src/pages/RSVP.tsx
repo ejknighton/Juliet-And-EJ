@@ -21,7 +21,7 @@ export default function RSVP() {
           fontFamily: 'Fraunces Variable',
         }}
       >
-        RSVP
+        Thank You
       </Typography>
 
       <Box
@@ -32,15 +32,10 @@ export default function RSVP() {
           justifyContent: 'center',
         }}
       >
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSd29eDfioWWvEumrAdy_gu9sLU_e4F5iY3-LBsaEpsl-u8ZCA/viewform?embedded=true"
-          width="100%"
-          height="1009"
-          style={{ border: 0, maxWidth: '640px' }}
-          title="RSVP Form"
-        >
-          Loading…
-        </iframe>
+        <Typography variant="body1" sx={{ textAlign: 'center' }}>
+          Thank you to everyone who traveled up the mountain to celebrate with us.
+          Having you all in June Lake meant more to us than we can say.
+        </Typography>
       </Box>
     </Box>
   );
